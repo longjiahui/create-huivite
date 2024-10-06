@@ -5,7 +5,7 @@ import path from 'node:path'
 
 const sourceDir = path.resolve(import.meta.dirname, '../source')
 
-type Variables = 'dbName'
+type Variables = 'projectName'
 
 export function source(p: string, relDir: string) {
     relDir = path.resolve(sourceDir, relDir)
